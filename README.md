@@ -1,5 +1,11 @@
 # 📊 电商广告点击行为分析项目
 
+```markdown
+## 项目亮点
+- 基于千万级淘宝广告点击数据进行分析
+- 使用 PostgreSQL + Python 完成多表关联与可视化分析
+- 从用户画像、广告策略、商品价格三个维度拆解 CTR
+- 输出可落地的精准投放优化建议
 ## 📌 项目背景
 本项目基于淘宝广告点击数据，对用户行为特征与广告投放效果进行分析，旨在挖掘影响点击率（CTR）的关键因素，并为广告精准投放提供数据支持。
 
@@ -83,14 +89,16 @@
 ---
 
 ## 📁 项目结构
+```text
 ad_analysis_project/
 ├── notebooks/
-│ ├── 01_database_exploration.ipynb
-│ ├── 02_ctr_analysis.ipynb
-│ ├── 03_user_analysis.ipynb
-│ ├── 04_advanced_user_analysis.ipynb
-│ ├── 05_advertiser_analysis.ipynb
-│ └── 06_final_conclusion.ipynb
+│   ├── 01_database_exploration.ipynb
+│   ├── 02_ctr_analysis.ipynb
+│   ├── 03_user_analysis.ipynb
+│   ├── 04_advanced_user_analysis.ipynb
+│   ├── 05_advertiser_analysis.ipynb
+│   └── 06_final_conclusion.ipynb
+├── sql/
 ├── README.md
 └── .gitignore
 
