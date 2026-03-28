@@ -83,3 +83,27 @@
 ---
 
 ## 📁 项目结构
+ad_analysis_project/
+├── notebooks/
+│ ├── 01_database_exploration.ipynb
+│ ├── 02_ctr_analysis.ipynb
+│ ├── 03_user_analysis.ipynb
+│ ├── 04_advanced_user_analysis.ipynb
+│ ├── 05_advertiser_analysis.ipynb
+│ └── 06_final_conclusion.ipynb
+├── README.md
+└── .gitignore
+
+---
+
+## ⚠️ 数据说明
+由于数据量较大，本仓库未包含原始数据文件。  
+数据来源：阿里天池公开数据集。
+
+---
+
+## 🚀 项目亮点
+- 基于真实工业级数据（千万级）
+- SQL + Python 结合分析
+- 完整数据分析流程（数据 → 分析 → 结论 → 建议）
+- 具备业务导向思维（非纯技术分析）
