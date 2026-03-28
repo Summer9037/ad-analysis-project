@@ -205,3 +205,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# 忽略数据文件
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# 忽略大文件
+*.zip
+*.tar
+*.gz
